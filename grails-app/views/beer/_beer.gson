@@ -1,0 +1,7 @@
+import gorm.data.service.issue.Beer
+
+model {
+	Beer beer
+}
+
+json g.render(beer, [resolveTemplate: false])

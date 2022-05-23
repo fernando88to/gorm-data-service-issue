@@ -1,0 +1,8 @@
+import gorm.data.service.issue.Beer
+
+model {
+	Iterable<Beer> beerList
+}
+
+json tmpl.beer(beerList ?: [])
+
